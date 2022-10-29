@@ -12,6 +12,14 @@
   --light-border: #108600;
 }
 
+a {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
 body {
     --text-light: #f1f1f1;
 
