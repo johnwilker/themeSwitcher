@@ -95,9 +95,10 @@ body {
   flex-direction: column;
   gap: .5rem;
   padding-left: 0;
+  list-style: none;
 }
 
-.links li {
+.links li a {
   display: flex;
   list-style: none;
   border: 3px solid var(--border-color);
