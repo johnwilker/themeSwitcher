@@ -41,6 +41,10 @@ body {
   --border-color: #00b4d8;
 }
 
+.svgInternalID svg g {
+  fill: var(--text-light);
+}
+
 .theme-switcher {
   margin-top: 32px;
   display: flex;
@@ -197,6 +201,10 @@ input:checked + .slider:before {
 .social-media li:hover {
   transform: scale(1.15);
   transition: transform .3s;
+}
+
+.theme-switcher {
+  animation: fromTop 1s .3s backwards;
 }
 
 .profile img {
